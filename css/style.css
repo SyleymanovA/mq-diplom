@@ -696,9 +696,6 @@ body {
   overflow: hidden;
  }
 
- /*.wrap_popup_hidden{
-  display: none;
- } */
 
  .wrap_popup {
   position: fixed;
@@ -802,6 +799,7 @@ body {
     background-color: #f4f7f6;
     margin-bottom: 28px;
     outline: none;
+    text-align: center;
   }
 
   .popup_button {
@@ -924,17 +922,29 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  margin-bottom: 30px;
+  padding-bottom: 29px;
+  border-bottom-width: 2px; 
+  border-bottom-style: solid; 
+  border-bottom-color: #eeeeee;
 }
+
 .post_card {
   width: 381px;
   margin-left: 0px;
+  margin-top: 15px;
 }
 
 .post img {
   width: 381px;
   background-size: cover;
-  
 }
+
+.meta {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .container {
   width: 272px;
   margin-left: 35px;
@@ -1004,7 +1014,7 @@ body {
 .logo img {
   position: absolute;
   left: 12.5%;
-  top: 19.5%;
+  top: 260px;
   width: 75%;
   height: auto;
 }
@@ -1014,7 +1024,7 @@ body {
   width: 75%;
   margin: 0px;
   left: 12.5%;
-  top: 30%;
+  top: 450px;
   width: 75%;
 
 }
@@ -1082,6 +1092,11 @@ h1 {
   flex-direction: column;
   justify-content: center;
   margin: 0px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom-width: 2px; 
+  border-bottom-style: solid; 
+  border-bottom-color: #eeeeee;
 }
 
 .post img {
@@ -1092,6 +1107,12 @@ h1 {
 .post_card {
   width: 100%;
   margin-left: 0px;
+  margin-top: 16px;
+}
+
+.meta {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .content {
@@ -1123,6 +1144,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
+  margin-top: 30px;
 }
 
 .sidebar_card {
@@ -1188,3 +1210,7 @@ input[type="email"] {
   text-align: center;
  }
 }
+
+.wrap_popup_hidden{
+  display: none;
+ }
